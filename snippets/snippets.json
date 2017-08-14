@@ -217,19 +217,19 @@
 	},
 	"bs3-cdn:css": {
 		"prefix": "bs3-cdn:css",
-		"body": "\n<!-- Latest compiled and minified CSS -->\n<link rel=\"stylesheet\" href=\"//netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/css/bootstrap.min.css\">\n",
+		"body": "\n<!-- Latest compiled and minified CSS -->\n<link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n",
 		"description": "CDN Hosted Bootstrap Link: CSS Only",
 		"scope": ""
 	},
 	"bs3-cdn:js": {
 		"prefix": "bs3-cdn:js",
-		"body": "\n<!-- Latest compiled and minified JS -->\n${1:<script src=\"//code.jquery.com/jquery.js\"></script>}\n<script src=\"//netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/js/bootstrap.min.js\"></script>\n",
+		"body": "\n<!-- Latest compiled and minified JS -->\n${1:<script src=\"//code.jquery.com/jquery.js\"></script>}\n<script src=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n",
 		"description": "CDN Hosted Bootstrap Link: JS Only",
 		"scope": ""
 	},
 	"bs3-cdn": {
 		"prefix": "bs3-cdn",
-		"body": "\n<!-- Latest compiled and minified CSS & JS -->\n<link rel=\"stylesheet\" media=\"screen\" href=\"//netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/css/bootstrap.min.css\">\n${2:<script src=\"//code.jquery.com/jquery.js\"></script>}\n<script src=\"//netdna.bootstrapcdn.com/bootstrap/${1:3.3.4}/js/bootstrap.min.js\"></script>\n",
+		"body": "\n<!-- Latest compiled and minified CSS & JS -->\n<link rel=\"stylesheet\" media=\"screen\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css\">\n${2:<script src=\"//code.jquery.com/jquery.js\"></script>}\n<script src=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js\"></script>\n",
 		"description": "CDN Hosted Bootstrap Links: CSS & JS",
 		"scope": ""
 	},
